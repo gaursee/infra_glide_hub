@@ -1,0 +1,21 @@
+{
+  "id": 966,
+  "name": "newPipeline_20251230162132",
+  "description": "",
+  "provider": "aws",
+  "region": "us-east-1",
+  "createdAt": "2025-12-30T16:21:44.979Z",
+  "components": [
+    {
+      "id": "s3-1767111698494",
+      "name": "S3-td2251",
+      "type": "s3",
+      "config": {},
+      "position": {
+        "x": 513.671875,
+        "y": 393
+      }
+    }
+  ],
+  "connections": []
+}
