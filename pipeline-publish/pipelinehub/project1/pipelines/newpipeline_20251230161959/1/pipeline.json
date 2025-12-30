@@ -1,0 +1,31 @@
+{
+  "id": 965,
+  "name": "newPipeline_20251230161959",
+  "description": "",
+  "provider": "aws",
+  "region": "us-east-1",
+  "createdAt": "2025-12-30T16:20:30.590Z",
+  "components": [
+    {
+      "id": "s3-1767111602792",
+      "type": "cloudComponent",
+      "position": {
+        "x": 415.671875,
+        "y": 271
+      },
+      "data": {
+        "componentType": "s3",
+        "type": "s3",
+        "name": "S3-tury5k",
+        "config": {
+          "awsRegion": "ap-south-1",
+          "versioning": "Enabled",
+          "accessControlList": "public-read",
+          "bucketName": "buc7"
+        },
+        "validationError": false
+      }
+    }
+  ],
+  "connections": []
+}
