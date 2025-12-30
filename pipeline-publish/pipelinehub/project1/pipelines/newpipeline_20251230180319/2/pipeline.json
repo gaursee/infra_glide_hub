@@ -1,0 +1,31 @@
+{
+  "id": 977,
+  "name": "newPipeline_20251230180319",
+  "description": "",
+  "provider": "aws",
+  "region": "us-east-1",
+  "createdAt": "2025-12-30T18:03:53.118Z",
+  "components": [
+    {
+      "id": "s3-1767117802640",
+      "type": "cloudComponent",
+      "position": {
+        "x": 434.671875,
+        "y": 296
+      },
+      "data": {
+        "componentType": "s3",
+        "type": "s3",
+        "name": "S3-1h9bba",
+        "config": {
+          "awsRegion": "ap-south-1",
+          "bucketName": "gv2",
+          "versioning": "Enabled",
+          "accessControlList": "public-read"
+        },
+        "validationError": false
+      }
+    }
+  ],
+  "connections": []
+}
